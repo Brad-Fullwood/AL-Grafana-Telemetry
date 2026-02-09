@@ -1,0 +1,15 @@
+# AL build artifacts
+*.app
+*.g.xlf
+.alpackages/
+
+# VS Code
+.vscode/.alcache/
+rad.json
+
+# Snapshots
+.snapshots/
+
+# OS files
+.DS_Store
+Thumbs.db

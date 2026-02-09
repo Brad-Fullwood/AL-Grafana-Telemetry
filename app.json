@@ -1,0 +1,32 @@
+{
+  "id": "04c3015f-2238-494c-8d96-b58cba5cda7a",
+  "name": "Grafana Telemetry",
+  "publisher": "Brad Fullwood",
+  "version": "1.0.0.0",
+  "brief": "Send Business Central telemetry to Grafana via InfluxDB line protocol",
+  "description": "A POC Business Central extension that collects telemetry (user logins, installed extensions, errors) and sends them to Grafana Cloud using InfluxDB line protocol.",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "https://github.com/bradfullwood97/AL-Grafana-Telemetry",
+  "logo": "./resources/TechnicallyBusinesscentral.png",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "27.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "16.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}
